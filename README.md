@@ -14,7 +14,7 @@ Since the Family Tree can be huge, I have just considered three Generations i.e.
 
 Code Explained – 
 
-•	The first page is the main.html, which redirects us to the main3.php file
+•	The first page is main3.php file
 
 •	The main3.php file is connected to the families table, here you can click on the person “Priyanka” 
 
