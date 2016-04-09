@@ -25,6 +25,6 @@
 		    echo "</tr>\n";
 }
 echo "</table>";
-echo "Click above to move know further";
+echo "Click above to know further";
 
 

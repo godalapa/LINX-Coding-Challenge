@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2016 at 01:13 AM
+-- Generation Time: Apr 08, 2016 at 10:23 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -29,14 +29,14 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `families` (
   `Sno` int(5) NOT NULL,
   `family_title` varchar(20) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf32;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf32;
 
 --
 -- Dumping data for table `families`
 --
 
 INSERT INTO `families` (`Sno`, `family_title`) VALUES
-(1, 'Priyanka'),
+(1, 'godalapa'),
 (2, 'Prem'),
 (3, 'Ananth Rao'),
 (4, 'KJ Victor'),
@@ -181,7 +181,7 @@ ALTER TABLE `relation`
 -- AUTO_INCREMENT for table `families`
 --
 ALTER TABLE `families`
-  MODIFY `Sno` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=20;
+  MODIFY `Sno` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
 --
 -- Constraints for dumped tables
 --

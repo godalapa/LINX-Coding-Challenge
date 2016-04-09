@@ -2,7 +2,6 @@
 <body>
 <h1>My family Tree is as follows<br></h1>
 Enter the name of the person from below to know their family relations and click on Submit<br><br>
-
 <FORM method="post" ACTION="others.php">
 <input type="text" name ="t1" required>
 <input type="submit" >
@@ -79,7 +78,18 @@ Enter the name of the person from below to know their family relations and click
 			echo "<td>$cell<br></td>";
 		 }
 	   }
-	
+	//	echo( "My Cousins are <br>");
+     //  $query = "select r.Name from relation r inner join families f 
+		//		 on f.Sno=r.Id and r.Id=1
+	//			 where r.relationship='cousin'";
+	  // $result = mysqli_query($connection, $query);	   
+	  // while ($row = mysqli_fetch_assoc($result))
+	   //{
+		// foreach($row as $cell_name => $cell)
+		 //{
+			//echo "<td>$cell<br></td>";
+		 //}
+	   //}
 echo "<br>";	   
 	   echo( "My Children are <br>");
        $query = "select r.Name from relation r inner join families f 
